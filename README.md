@@ -68,18 +68,21 @@ Before you begin, ensure you have:
 ## 🚀 Quick Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/news-research-tool.git
-   cd news-research-tool
+    git clone https://github.com/yourusername/news-research-tool.git
+    cd news-research-tool
     ```
+
 2. **Create Virtual Environment**
    ```bash
-   python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
+
 3. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
     ```
+    
 4. **Set Up Environment Variables**
 Create a .env file in the project root:
    ```bash
