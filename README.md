@@ -7,6 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/af38/news-research-tool?style=social)](https://github.com/af38/news-research-tool)
 
 An AI-powered news research tool that lets you load news articles from URLs and ask questions about their content using Retrieval-Augmented Generation (RAG). The tool uses advanced NLP techniques to understand and analyze news content, providing insightful answers with proper citations.
+![home page screenshor](images/home.png)
 
 ## ✨ Features
 
@@ -82,7 +83,7 @@ Before you begin, ensure you have:
    ```bash
    pip install -r requirements.txt
     ```
-    
+
 4. **Set Up Environment Variables**
 Create a .env file in the project root:
    ```bash
@@ -91,7 +92,7 @@ Create a .env file in the project root:
 
 ## 🎮 Usage
 ```bash
-streamlit run main.py
+streamlit run src/main.py
 ```
 ## 🧪 How It Works
 1. **Document Processing Pipeline**
